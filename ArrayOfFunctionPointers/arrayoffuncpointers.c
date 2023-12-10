@@ -32,6 +32,7 @@ uint8 div(uint8 arg1, uint8 arg2){
 /*Cannot initialize function pointers*/
 /* try using void types and for void arguments*/
 
+/*the brackets for array pointers or functions pointers are important*/
 uint8 (*arrofFunctions[])(uint8, uint8) = {add, sub, mul, div};
 
 void main()
